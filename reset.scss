@@ -1,0 +1,61 @@
+body, html {
+  font-family: "Roboto", sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+@mixin btn{
+  padding: 10px 30px;
+  background: #FE8B46;
+  color: white;
+  font-size: 16px;
+  border: 1px solid #FFFFFF;
+  border-radius: 40px;
+  &:hover {
+    transform: scale(1.2);
+    border: 1px solid black;
+    background: transparent;
+    color: black;
+  }
+}
+
+@mixin btn2{
+  padding: 10px 30px;
+  background: #FE8B46;
+  color: white;
+  font-size: 16px;
+  border: 1px solid #FFFFFF;
+  border-radius: 40px;
+  &:hover {
+    transform: scale(1.2);
+    border: 1px solid #FE8B46;
+    background: white;
+    color: #FE8B46;
+  }
+}
+
+@mixin btn3{
+  padding: 10px 30px;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border: 1px solid #FFFFFF;
+  border-radius: 40px;
+  &:hover {
+    transform: scale(1.2);
+    border: 1px solid white;
+    background:  #FE8B46;
+    color: black;
+
+  }
+}
